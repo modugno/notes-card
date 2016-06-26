@@ -1,0 +1,38 @@
+header {
+	background: #40b65f;
+	height: 40px;
+	padding: 8px 0;
+}
+
+.header-title {
+	color: #80df9a;
+	display: inline;
+	vertical-align: middle;
+}
+
+.header-menu {
+	float: right;
+}
+
+.header-button:first-child {
+	margin-right: 15px;
+}
+
+.header-button {
+	background: #54ab6c;
+	font-size: 1em;
+	color: #fff;
+	box-sizing: content-box;
+	height: 22px;
+	padding: 8px;
+	display: inline-block;
+}
+
+.header-button_display-inline {
+	display: block;
+	width: 24px;
+	background-image: url(../../img/blocos.svg);
+	/*background-size: 80%;*/
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}

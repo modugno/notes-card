@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Notes Card</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/block/header.css">
+	<link rel="stylesheet" href="css/block/newCard.css">
+	<link rel="stylesheet" href="css/block/card.css">
+</head>
+<body>
+	<header class="header container">
+		<h1 class="header-title">Notes</h1>
+		<nav class="header-menu">
+			<ul>
+				<li class="header-button">
+					<a href="" class="header-button_display">Linhas</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<!-- formulario -->
+	<form action="" class="newCard">
+		<textarea class="newCard-content" name="" id="" cols="30" rows="10" placeholder="Digite aqui o conteudo da sua nota"></textarea>
+		<button class="newCard-btn" type="submit">Salvar</button>
+	</form>
+	<!-- fim formulario -->
+
+	<section class="container">
+		<ol class="wrap-card">
+			<li class="card" data-color="first">
+				<nav class="wrap-card-options">
+					<ul>
+						<li class="card-options card_delete"><a href="">Excluir</a></li>
+						<li class="card-options card_edit"><a href="">Editar</a></li>
+						<li class="card-options active" data-color="first"><a href="">Azul</a></li>
+						<li class="card-options" data-color="second"><a href="">Vermelho</a></li>
+						<li class="card-options" data-color="third"><a href="">Verde</a></li>
+						<li class="card-options" data-color="fourth"><a href="">Amarelo</a></li>
+					</ul>
+				</nav>
+				<p class="card-content" contenteditable="false">
+					Sejam bem vindos
+				</p>
+			</li>
+		</ol>
+	</section>
+
+	<script src="js/card.js"></script>
+	<script src="js/newCard.js"></script>
+</body>
+</html>
